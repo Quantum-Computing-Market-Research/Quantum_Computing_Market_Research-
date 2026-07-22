@@ -1,0 +1,8 @@
+Quantum cryptography uses principles of quantum mechanics to secure information.
+
+Key features:
+- Quantum key distribution (QKD) allows two parties to share a secret key with detection of eavesdropping.
+- Quantum states such as photons are used to transmit bits in a way that any interception disturbs the state.
+- Security is based on physics rather than computational assumptions.
+
+Applications include secure communications, encryption key exchange, and protection against future quantum computer attacks.
