@@ -1,0 +1,274 @@
+# Quantum Technologies Landscape (2026)
+
+## 1. Quantum Computing
+
+### Hardware Modalities
+- Superconducting qubits
+- Trapped-ion qubits
+- Neutral atom qubits
+- Photonic quantum computing
+- Silicon spin qubits
+- Semiconductor quantum dots
+- Diamond NV-center qubits
+- Topological qubits *(experimental)*
+- Majorana-based qubits *(experimental)*
+- Rydberg atom processors
+- Nuclear spin qubits
+- Donor-based silicon qubits
+- Continuous-variable quantum computing
+- Quantum annealers
+
+### Supporting Technologies
+- Cryogenic control systems
+- Quantum control electronics
+- Microwave control systems
+- Laser control systems
+- Quantum interconnects
+- Quantum processors (QPUs)
+- Hybrid quantum-classical systems
+
+---
+
+# 2. Quantum Communication
+
+## Secure Communication Technologies
+- Quantum Key Distribution (QKD)
+- Continuous-variable QKD (CV-QKD)
+- Measurement-device-independent QKD (MDI-QKD)
+- Twin-field QKD
+- Device-independent QKD
+- Quantum teleportation
+- Entanglement distribution
+- Entanglement swapping
+- Quantum repeaters
+- Quantum network nodes
+- Quantum routing
+- Quantum internet architectures
+- Satellite quantum communication
+- Fiber-optic quantum communication
+- Free-space quantum communication
+- Quantum digital signatures
+- Quantum secret sharing
+- Quantum authentication
+
+---
+
+# 3. Post-Quantum Cryptography (PQC)
+
+## NIST-Standardized Algorithms
+- ML-KEM (formerly CRYSTALS-Kyber)
+- ML-DSA (formerly CRYSTALS-Dilithium)
+- SLH-DSA (formerly SPHINCS+)
+
+## Additional PQC Algorithms
+- FALCON
+- HQC
+- BIKE
+- Classic McEliece
+
+---
+
+# 4. Quantum Sensing
+
+## Precision Measurement Technologies
+- Atomic clocks
+- Optical lattice clocks
+- Quantum gravimeters
+- Quantum magnetometers
+- Quantum gyroscopes
+- Quantum accelerometers
+- Quantum inertial navigation systems (Q-INS)
+- Quantum electric field sensors
+- Quantum strain sensors
+- Quantum pressure sensors
+- Quantum thermometers
+- Quantum imaging
+- Quantum LiDAR *(research)*
+- Quantum radar *(experimental)*
+- Diamond NV-center sensors
+- Cold atom interferometers
+
+---
+
+# 5. Quantum Simulation
+
+## Simulation Platforms
+- Analog quantum simulators
+- Digital quantum simulators
+- Cold atom simulators
+- Trapped-ion simulators
+- Neutral atom simulators
+- Photonic simulators
+- Superconducting simulators
+
+## Application Areas
+- Quantum chemistry
+- Materials science
+- Condensed matter physics
+- High-energy physics
+- Drug discovery
+- Protein interaction simulation
+
+---
+
+# 6. Quantum Software
+
+## Development Tools
+- Quantum programming languages
+- Quantum SDKs
+- Quantum compilers
+- Quantum circuit optimizers
+- Quantum transpilers
+- Quantum operating systems
+- Quantum cloud platforms
+- Quantum workflow orchestration
+- Quantum debugging tools
+- Quantum resource estimation
+- Error mitigation software
+- Quantum benchmarking tools
+- Quantum machine learning frameworks
+
+---
+
+# 7. Quantum Algorithms
+
+## Cryptography
+- Shor's Algorithm
+- Grover's Algorithm
+
+## Optimization
+- QAOA
+- Quantum Annealing
+- Variational algorithms
+
+## Simulation
+- VQE
+- Quantum Phase Estimation (QPE)
+- Hamiltonian simulation
+
+## Linear Algebra
+- HHL Algorithm
+- Quantum Fourier Transform (QFT)
+- Amplitude Estimation
+
+## Machine Learning
+- Quantum Neural Networks (QNN)
+- Quantum Support Vector Machines (QSVM)
+- Quantum Kernel Methods
+- Quantum Reinforcement Learning
+
+---
+
+# 8. Quantum Error Correction (QEC)
+
+## Error-Correcting Codes
+- Surface codes
+- Color codes
+- Shor code
+- Steane code
+- Bacon-Shor code
+- LDPC quantum codes
+- Bosonic codes
+- Cat codes
+- GKP codes
+
+## Fault-Tolerant Technologies
+- Logical qubits
+- Fault-tolerant quantum computing
+- Magic state distillation
+- Syndrome extraction
+- Error decoding
+- Lattice surgery
+
+---
+
+# 9. Quantum Randomness
+
+## Random Number Generation
+- Quantum Random Number Generators (QRNG)
+- Device-independent QRNG
+- Entropy certification systems
+- Hardware security modules with QRNG
+
+---
+
+# 10. Quantum Networking
+
+## Network Components
+- Quantum repeaters
+- Quantum memories
+- Quantum transducers
+- Quantum switches
+- Quantum routers
+- Quantum network interfaces
+- Distributed quantum computing
+- Blind quantum computing
+- Secure delegated quantum computing
+- Quantum cloud computing
+
+---
+
+# 11. Quantum Enabling Technologies
+
+- Cryogenic refrigeration
+- Dilution refrigerators
+- Ultra-high vacuum systems
+- Laser stabilization
+- Microwave electronics
+- FPGA-based quantum controllers
+- Single-photon detectors
+- Superconducting nanowire detectors (SNSPDs)
+- Photonic integrated circuits (PICs)
+- Precision optics
+- Quantum calibration systems
+
+---
+
+# 12. Quantum Applications
+
+## Cybersecurity
+- Post-Quantum Cryptography (PQC)
+- Quantum Key Distribution (QKD)
+- Quantum Random Number Generation (QRNG)
+- Secure communication networks
+
+## Healthcare & Biology
+- Drug discovery
+- Protein folding
+- Molecular simulation
+- Genomic sequence alignment
+- Precision medicine
+
+## Finance
+- Portfolio optimization
+- Risk analysis
+- Fraud detection
+- Derivatives pricing
+
+## Logistics
+- Vehicle routing
+- Supply chain optimization
+- Scheduling
+
+## Materials Science
+- Battery materials
+- Catalyst discovery
+- Superconductors
+
+## Artificial Intelligence
+- Quantum machine learning
+- Data classification
+- Feature mapping
+- Optimization
+
+## Defense & Aerospace
+- Secure communications
+- Navigation without GPS
+- Quantum sensing
+- Space communications
+
+## Energy
+- Grid optimization
+- Fusion simulation
+- Chemical process optimization
+
