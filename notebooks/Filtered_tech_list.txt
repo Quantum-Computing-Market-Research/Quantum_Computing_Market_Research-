@@ -1,0 +1,45 @@
+#1. Quantum Computing
+### Hardware Modalities
+- Superconducting qubits
+- Trapped-ion qubits
+- Neutral atom qubits
+- Photonic quantum computing
+- Diamond NV-center qubits
+- Topological qubits *(experimental)*
+
+
+### Supporting Technologies
+- Quantum processors (QPUs)
+- Hybrid quantum-classical systems
+
+#2.Quantum Communication
+- Quantum Key Distribution (QKD)
+- Measurement-device-independent QKD (MDI-QKD)
+- Twin-field QKD
+- Device-independent QKD
+- Quantum teleportation
+- Entanglement swapping
+- Quantum repeaters
+- Quantum network nodes
+- Quantum routing
+- Quantum internet architectures
+- Satellite quantum communication
+- Fiber-optic quantum communication
+- Quantum secret sharing
+- Quantum authentication
+
+#3. Post-Quantum Cryptography (PQC)
+- NIST-Standardized Algorithms
+- FALCON
+- HQC
+- BIKE
+- Classic McEliece
+
+#4. Quantum Algorithms
+- Shor's Algorithm (Cryptography)
+- Grover's Algorithm (Cryptography)
+- QAOA (Optimization)
+- Quantum Annealing (Optimization)
+- Variational algorithms (Optimization)
+
+
