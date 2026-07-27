@@ -1,0 +1,77 @@
+# Quantum Key Distribution (QKD)
+
+## Overview
+Quantum Key Distribution (QKD) is a quantum cybersecurity technology that enables secure exchange of encryption keys using quantum mechanics. Its security comes from the fact that any attempt to intercept quantum information introduces detectable disturbances.
+
+---
+
+## Why QKD Matters
+
+Current encryption methods (RSA, ECC) may be vulnerable to future quantum computers through algorithms like **Shor's Algorithm**.
+
+Main threat:
+
+> "Harvest now, decrypt later" — attackers collect encrypted data today and decrypt it in the future.
+
+QKD provides a physics-based security approach.
+
+---
+
+## How QKD Works
+
+**Example: BB84 Protocol**
+
+1. Sender encodes information into quantum states (usually photons).
+2. Receiver measures the quantum states.
+3. Both parties compare measurements through a classical channel.
+4. Interception attempts create errors that reveal attackers.
+5. A shared secure key is generated.
+
+---
+
+## Main QKD Technologies
+
+### Discrete Variable QKD (DV-QKD)
+- Uses single photons and polarization states.
+- Examples: BB84, E91.
+- Most mature approach.
+
+### Continuous Variable QKD (CV-QKD)
+- Uses properties of light fields.
+- Compatible with existing optical networks.
+
+### Measurement-Device-Independent QKD (MDI-QKD)
+- Reduces vulnerabilities from measurement devices.
+
+### Satellite QKD
+- Uses satellites for long-distance quantum communication.
+
+---
+
+## Current Readiness
+
+| Technology | Status |
+|---|---|
+| Laboratory demonstrations | Mature |
+| Fiber QKD networks | Pilot deployment |
+| Satellite QKD | Experimental |
+| Global quantum internet | Research stage |
+
+---
+
+## Key Challenges
+
+- Limited communication distance due to photon loss.
+- High infrastructure cost.
+- Hardware side-channel vulnerabilities.
+- Requires classical authentication.
+
+---
+
+## Applications
+
+- Government and defense communication
+- Financial security
+- Critical infrastructure protection
+- Future quantum networks
+
