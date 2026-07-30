@@ -1,0 +1,9 @@
+# My 7 Regional Quantum Institutions
+
+## NIST (Gaithersburg)
+## UMD: QuICS
+## UMD: LPS
+## Johns Hopkins APL
+## Howard University Quantum Lab
+## Lockheed Martin (Bethesda)
+## IonQ (College Park)
