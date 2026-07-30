@@ -1,8 +1,8 @@
-Institution,Activity Level,Description
-"NIST (Gaithersburg)","Active","They build highly specialized physical tools to measure quantum states, like single-photon detectors."
-"UMD: QuICS","Low","They stick to the theory and the math. They aren't in the business of physically building the computers themselves."
-"UMD: LPS","Highly Active","They are a massive player here. They do a ton of physical work with solid-state computing, qubits, and advanced materials."
-"Johns Hopkins APL","Highly Active","They do some wild stuff, like blasting superconducting qubits with cosmic rays to test how well they handle noise and interference."
-"Howard University Quantum Lab","Active","They do hands-on research looking into quantum sensors and the specialized materials needed to build them."
-"Lockheed Martin (Bethesda)","Active","They are looking at how to physically strap quantum sensors onto defense platforms and use quantum computers for logistics."
-"IonQ (College Park)","Highly Active","This is their bread and butter. They are one of the top companies in the world actually building commercial trapped-ion quantum computers."
+Institution,Research Area,TRL,Description
+"NIST (Gaithersburg)","Quantum Sensors & Detectors","TRL 8","They build highly specialized physical tools to measure quantum states, like single-photon detectors."
+"UMD: QuICS","Quantum Algorithms","TRL 1","They stick to the theory and the math. They aren't in the business of physically building the computers themselves."
+"UMD: LPS","Solid-State & Qubits","TRL 5","They are a massive player here. They do a ton of physical work with solid-state computing, qubits, and advanced materials."
+"Johns Hopkins APL","Noise & Interference Testing","TRL 5","They do some wild stuff, like blasting superconducting qubits with cosmic rays to test how well they handle noise and interference."
+"Howard University Quantum Lab","Quantum Materials & Sensors","TRL 3","They do hands-on research looking into quantum sensors and the specialized materials needed to build them."
+"Lockheed Martin (Bethesda)","Defense Hardware Integration","TRL 7","They are looking at how to physically strap quantum sensors onto defense platforms and use quantum computers for logistics."
+"IonQ (College Park)","Trapped-Ion Systems","TRL 8","This is their bread and butter. They are one of the top companies in the world actually building commercial trapped-ion quantum computers."

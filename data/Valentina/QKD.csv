@@ -1,8 +1,8 @@
-Institution,Activity Level,Description
-"NIST (Gaithersburg)","Active","They are focused on the measurement side of things, figuring out the standards needed to actually test secure quantum networks."
-"UMD: QuICS","Active","They do a lot of theoretical work on how to design secure networking protocols that don't rely on trusting the hardware."
-"UMD: LPS","Active","They are actually building physical testbeds to see how secure quantum communication works in the real world."
-"Johns Hopkins APL","Active","They are building super tough quantum networking tech meant specifically for classified military communications."
-"Howard University Quantum Lab","Active","They are actively exploring how to build secure data networks and quantum communication frameworks."
-"Lockheed Martin (Bethesda)","Active","They are pouring money into secure quantum links, looking at both satellite and ground-based military comms."
-"IonQ (College Park)","Low","They don't really do dedicated quantum networking. Their whole business is focused on computation instead."
+Institution,Research Area,TRL,Description
+"NIST (Gaithersburg)","Metrology & Measurement","TRL 7","They are focused on the measurement side of things, figuring out the standards needed to actually test secure quantum networks."
+"UMD: QuICS","Device-Independent Protocols","TRL 3","They do a lot of theoretical work on how to design secure networking protocols that don't rely on trusting the hardware."
+"UMD: LPS","Physical Testbeds","TRL 5","They are actually building physical testbeds to see how secure quantum communication works in the real world."
+"Johns Hopkins APL","Classified Defense Comms","TRL 5","They are building super tough quantum networking tech meant specifically for classified military communications."
+"Howard University Quantum Lab","Secure Data Networks","TRL 3","They are actively exploring how to build secure data networks and quantum communication frameworks."
+"Lockheed Martin (Bethesda)","Space & Terrestrial Links","TRL 7","They are pouring money into secure quantum links, looking at both satellite and ground-based military comms."
+"IonQ (College Park)","Quantum Computation","TRL 1","They don't really do dedicated quantum networking. Their whole business is focused on computation instead."

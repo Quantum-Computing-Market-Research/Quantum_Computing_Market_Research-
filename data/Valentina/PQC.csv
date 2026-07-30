@@ -1,8 +1,8 @@
-Institution,Activity Level,Description
-"NIST (Gaithersburg)","Highly Active","They are basically the global headquarters for this. They just finished publishing the official rules that everyone else will use to upgrade their systems."
-"UMD: QuICS","Highly Active","They are all about the heavy math, working hard to prove that these new algorithms can actually survive future quantum attacks."
-"UMD: LPS","Moderate","They look at how these new encryption rules impact national security and figure out how to get them ready for defense use."
-"Johns Hopkins APL","Active","They are finding ways to use quantum algorithms to help intelligence analysts spot threats and track online trends."
-"Howard University Quantum Lab","Active","They have a great team mixing quantum cybersecurity with machine learning to see how they can work together."
-"Lockheed Martin (Bethesda)","Active","Their main goal here is taking those new NIST rules and making sure they actually work on older military and aerospace systems."
-"IonQ (College Park)","Low","Not really their thing. They build the computers and leave the algorithm writing to their cybersecurity partners."
+Institution,Research Area,TRL,Description
+"NIST (Gaithersburg)","Standardization & Policy","TRL 9","They are basically the global headquarters for this. They just finalized the official rules that everyone else will use to upgrade their systems."
+"UMD: QuICS","Cryptanalysis & Theory","TRL 3","They are all about the heavy math, working hard to prove that these new algorithms can actually survive future quantum attacks."
+"UMD: LPS","Defense Integration","TRL 5","They look at how these new encryption rules impact national security and figure out how to get them ready for defense use."
+"Johns Hopkins APL","Applied Threat Intelligence","TRL 4","They are finding ways to use quantum algorithms to help intelligence analysts spot threats and track online trends."
+"Howard University Quantum Lab","Quantum Machine Learning","TRL 2","They have a great team mixing quantum cybersecurity with machine learning to see how they can work together."
+"Lockheed Martin (Bethesda)","Aerospace & Legacy Systems","TRL 7","Their main goal here is taking those new NIST rules and making sure they actually work on older military and aerospace systems."
+"IonQ (College Park)","Hardware Development","TRL 1","Not really their thing. They build the computers and leave the algorithm writing to their cybersecurity partners."
