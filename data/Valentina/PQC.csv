@@ -1,7 +1,7 @@
 Institution,Research Area,TRL,Description
 "NIST (Gaithersburg)","Standardization & Policy","TRL 9","They are basically the global headquarters for this. They just finalized the official rules that everyone else will use to upgrade their systems."
-"UMD: QuICS","Cryptanalysis & Theory","TRL 3","They are all about the heavy math, working hard to prove that these new algorithms can actually survive future quantum attacks."
-"UMD: LPS","Defense Integration","TRL 5","They look at how these new encryption rules impact national security and figure out how to get them ready for defense use."
+"Naval Research Laboratory (NRL)","Quantum Encryption Protocols","TRL 4","They evaluate quantum-resistant encryption algorithms for navy and tactical maritime communications."
+"MITRE Corporation (McLean)","PQC Migration Frameworks","TRL 6","They build migration roadmaps for federal agencies transitioning legacy infrastructure to NIST PQC standards."
 "Johns Hopkins APL","Applied Threat Intelligence","TRL 4","They are finding ways to use quantum algorithms to help intelligence analysts spot threats and track online trends."
 "Howard University Quantum Lab","Quantum Machine Learning","TRL 2","They have a great team mixing quantum cybersecurity with machine learning to see how they can work together."
 "Lockheed Martin (Bethesda)","Aerospace & Legacy Systems","TRL 7","Their main goal here is taking those new NIST rules and making sure they actually work on older military and aerospace systems."
