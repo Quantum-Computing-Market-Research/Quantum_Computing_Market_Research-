@@ -20,7 +20,9 @@ locations = {
 
     "Lockheed Martin (Bethesda)": [38.9847, -77.0947],
 
-    "IonQ (College Park)": [38.9897, -76.9378]
+    "IonQ (College Park)": [38.9897, -76.9378],
+    "Naval Research Laboratory (NRL)": [38.8239, -77.0233],
+    "MITRE Corporation (McLean)": [38.9248, -77.2023]
 } 
 
 df['Latitude'] = df["Institution"].map(lambda x: locations.get(x, [None, None])[0])
