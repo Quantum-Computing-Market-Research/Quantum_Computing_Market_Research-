@@ -123,3 +123,4 @@ m.save("DMV_quantum_ecosystem_map.html")
 
 
 print("Map saved!")
+print(df[["Institution","Latitude","Longitude"]])
