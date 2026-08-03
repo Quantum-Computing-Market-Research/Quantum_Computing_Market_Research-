@@ -45,6 +45,57 @@ m = folium.Map(
     tiles="CartoDB positron"
 )    
 
+top_banner = """
+<div style="
+position: fixed;
+top: 10px;
+left: 50%;
+transform: translateX(-50%);
+width: 720px;
+background: rgba(255,255,255,0.95);
+padding: 12px;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+z-index:9999;
+font-family:Arial;
+">
+
+<h3 style="margin:0;text-align:center;">
+🏆 Top Quantum Cybersecurity Institutions
+</h3>
+
+<table style="width:100%;margin-top:8px;font-size:14px;">
+<tr>
+<th align="left">Rank</th>
+<th align="left">Institution</th>
+<th align="left">Focus</th>
+</tr>
+
+<tr>
+<td>🥇</td>
+<td><b>University of Maryland</b></td>
+<td>PQC • QKD • Quantum Computing</td>
+</tr>
+
+<tr>
+<td>🥈</td>
+<td><b>NIST</b></td>
+<td>PQC Standards • Networking</td>
+</tr>
+
+<tr>
+<td>🥉</td>
+<td><b>Johns Hopkins APL</b></td>
+<td>Quantum Sensing • Secure Communications</td>
+</tr>
+
+</table>
+
+</div>
+"""
+
+m.get_root().html.add_child(folium.Element(top_banner))
+
 for _, row in df.iterrows():
 
     popup = f"""
