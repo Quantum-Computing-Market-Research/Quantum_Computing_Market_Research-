@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e5f0c563f37e8e0ac8518f113880758b {
+                #map_e47ea84a6a7907390c1e5621eda9ce17 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -50,6 +50,9 @@
             </script>
 
         
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
 </head>
 <body>
     
@@ -131,14 +134,14 @@ TRL 7-9 Deployment
 
 </div>
     
-            <div class="folium-map" id="map_e5f0c563f37e8e0ac8518f113880758b" ></div>
+            <div class="folium-map" id="map_e47ea84a6a7907390c1e5621eda9ce17" ></div>
         
 </body>
 <script>
     
     
-            var map_e5f0c563f37e8e0ac8518f113880758b = L.map(
-                "map_e5f0c563f37e8e0ac8518f113880758b",
+            var map_e47ea84a6a7907390c1e5621eda9ce17 = L.map(
+                "map_e47ea84a6a7907390c1e5621eda9ce17",
                 {
                     center: [39.0, -77.05],
                     crs: L.CRS.EPSG3857,
@@ -155,7 +158,7 @@ TRL 7-9 Deployment
 
         
     
-            var tile_layer_d10315a3956a3eb9aed0cf9b43d1600f = L.tileLayer(
+            var tile_layer_0327723a8e6945835f126d39048ba6d4 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {
   "minZoom": 0,
@@ -172,329 +175,338 @@ TRL 7-9 Deployment
             );
         
     
-            tile_layer_d10315a3956a3eb9aed0cf9b43d1600f.addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            tile_layer_0327723a8e6945835f126d39048ba6d4.addTo(map_e47ea84a6a7907390c1e5621eda9ce17);
         
     
-            var circle_marker_433d018aceb4337c52eb3ba2966e7d8b = L.circleMarker(
+            var marker_cluster_dbef097ef8cddffaca47584ea642f112 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_80a9be53a8160cb2ecfeb11a1aca1558 = L.circleMarker(
                 [39.1406, -77.2189],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_a35d7eabc033f76db860debb6237319b = L.popup({
+        var popup_e6bf929a483a15c9da1bb565e15a9272 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_67a1a329b445311240216cd98d568cef = $(`<div id="html_67a1a329b445311240216cd98d568cef" style="width: 100.0%; height: 100.0%;">     <h4>NIST (Gaithersburg)</h4>      <b>Research Area:</b><br>     Quantum Sensors & Detectors; Quantum Metrology     <br><br>      <b>Technology Readiness:</b><br>     TRL 8     <br><br>      <b>Description:</b><br>     National laboratory developing highly specialized quantum measurement tools, including single-photon detectors, precision sensors, and quantum measurement systems.     </div>`)[0];
-                popup_a35d7eabc033f76db860debb6237319b.setContent(html_67a1a329b445311240216cd98d568cef);
+                var html_84ccd0b3b0afff86d009206a7c46773e = $(`<div id="html_84ccd0b3b0afff86d009206a7c46773e" style="width: 100.0%; height: 100.0%;">     <h4>NIST (Gaithersburg)</h4>      <b>Research Area:</b><br>     Quantum Sensors & Detectors; Quantum Metrology     <br><br>      <b>Technology Readiness:</b><br>     TRL 8     <br><br>      <b>Description:</b><br>     National laboratory developing highly specialized quantum measurement tools, including single-photon detectors, precision sensors, and quantum measurement systems.          <b>Read more</b><br>     <a href="https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_e6bf929a483a15c9da1bb565e15a9272.setContent(html_84ccd0b3b0afff86d009206a7c46773e);
             
         
 
-        circle_marker_433d018aceb4337c52eb3ba2966e7d8b.bindPopup(popup_a35d7eabc033f76db860debb6237319b)
+        circle_marker_80a9be53a8160cb2ecfeb11a1aca1558.bindPopup(popup_e6bf929a483a15c9da1bb565e15a9272)
         ;
 
         
     
     
-            var circle_marker_e53b6eac201754088ae16a57ffb090bf = L.circleMarker(
+            var circle_marker_3f20476a7553aa9a0a6384fcf5ad5ea5 = L.circleMarker(
                 [38.9897, -76.9378],
                 {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_3b5d8abaa86c671bcb4434c3cca5ea28 = L.popup({
+        var popup_5a6fdf644aa110e97293bf38b9ca66f8 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_45436c76a14b7c5a0510c583806ce895 = $(`<div id="html_45436c76a14b7c5a0510c583806ce895" style="width: 100.0%; height: 100.0%;">     <h4>UMD: LPS Qubit Collaboratory</h4>      <b>Research Area:</b><br>     Solid-State Qubits; Superconducting Qubits; Quantum Computing Hardware; Cryogenic Quantum Systems     <br><br>      <b>Technology Readiness:</b><br>     TRL 5     <br><br>      <b>Description:</b><br>     Research collaboration focused on superconducting and solid-state qubit technologies, quantum processors, and improving scalability of quantum computing hardware.     </div>`)[0];
-                popup_3b5d8abaa86c671bcb4434c3cca5ea28.setContent(html_45436c76a14b7c5a0510c583806ce895);
+                var html_f71f2863370dcdbd26646d7af3558548 = $(`<div id="html_f71f2863370dcdbd26646d7af3558548" style="width: 100.0%; height: 100.0%;">     <h4>UMD:LPS Qubit Collaboratory</h4>      <b>Research Area:</b><br>     Solid-State Qubits; Superconducting Qubits; Quantum Computing Hardware; Cryogenic Quantum Systems     <br><br>      <b>Technology Readiness:</b><br>     TRL 5     <br><br>      <b>Description:</b><br>     Research collaboration focused on superconducting and solid-state qubit technologies, quantum processors, and improving scalability of quantum computing hardware.          <b>Read more</b><br>     <a href="https://www.qubitcollaboratory.org" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_5a6fdf644aa110e97293bf38b9ca66f8.setContent(html_f71f2863370dcdbd26646d7af3558548);
             
         
 
-        circle_marker_e53b6eac201754088ae16a57ffb090bf.bindPopup(popup_3b5d8abaa86c671bcb4434c3cca5ea28)
+        circle_marker_3f20476a7553aa9a0a6384fcf5ad5ea5.bindPopup(popup_5a6fdf644aa110e97293bf38b9ca66f8)
         ;
 
         
     
     
-            var circle_marker_ed9643ce228a5f2b9e2948d5e9476122 = L.circleMarker(
+            var circle_marker_a62f741514cbad4a2e6fe0de6c5426c4 = L.circleMarker(
                 [38.9897, -76.9378],
                 {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_a95540f33023bafdfaf1a506f94eb7b2 = L.popup({
+        var popup_80936c41597d0238bddba57948ca4b01 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_0f2a6f7e2ea8e629b0159db9260578f2 = $(`<div id="html_0f2a6f7e2ea8e629b0159db9260578f2" style="width: 100.0%; height: 100.0%;">     <h4>UMD: The National Quantum Laboratory (QLab)</h4>      <b>Research Area:</b><br>     Quantum Computing; Quantum Workforce; Quantum Technology Ecosystem     <br><br>      <b>Technology Readiness:</b><br>     TRL 5-6     <br><br>      <b>Description:</b><br>     National-scale quantum initiative focused on advancing quantum technologies, workforce development, and partnerships connecting academia, government, and industry.     </div>`)[0];
-                popup_a95540f33023bafdfaf1a506f94eb7b2.setContent(html_0f2a6f7e2ea8e629b0159db9260578f2);
+                var html_d26b3763e6fb2599fff63d131546720b = $(`<div id="html_d26b3763e6fb2599fff63d131546720b" style="width: 100.0%; height: 100.0%;">     <h4>UMD:The National Quantum Laboratory (QLab)</h4>      <b>Research Area:</b><br>     Quantum Computing; Quantum Workforce; Quantum Technology Ecosystem     <br><br>      <b>Technology Readiness:</b><br>     TRL 5-6     <br><br>      <b>Description:</b><br>     National-scale quantum initiative focused on advancing quantum technologies, workforce development, and partnerships connecting academia, government, and industry.          <b>Read more</b><br>     <a href="https://qlab.umd.edu" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_80936c41597d0238bddba57948ca4b01.setContent(html_d26b3763e6fb2599fff63d131546720b);
             
         
 
-        circle_marker_ed9643ce228a5f2b9e2948d5e9476122.bindPopup(popup_a95540f33023bafdfaf1a506f94eb7b2)
+        circle_marker_a62f741514cbad4a2e6fe0de6c5426c4.bindPopup(popup_80936c41597d0238bddba57948ca4b01)
         ;
 
         
     
     
-            var circle_marker_b1b9f7ad9d8a2eab752af60980be2f53 = L.circleMarker(
+            var circle_marker_53dc85fe48c8227db411f777fbd5dbf0 = L.circleMarker(
                 [38.9897, -76.9378],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_94881bf5d5b9e36c9db8c147936d42e9 = L.popup({
+        var popup_d6a86328fd3791f05493d1e1ba20f953 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_9b7c8bd066ec329fd31fe58eb7d5986b = $(`<div id="html_9b7c8bd066ec329fd31fe58eb7d5986b" style="width: 100.0%; height: 100.0%;">     <h4>UMD: Quantum Materials Center (QMC)</h4>      <b>Research Area:</b><br>     Quantum Materials; Superconductivity; Topological Materials     <br><br>      <b>Technology Readiness:</b><br>     TRL 2-4     <br><br>      <b>Description:</b><br>     Research center studying quantum materials that enable future quantum devices, including superconductors and novel electronic materials.     </div>`)[0];
-                popup_94881bf5d5b9e36c9db8c147936d42e9.setContent(html_9b7c8bd066ec329fd31fe58eb7d5986b);
+                var html_9b7efb8235416d1fe1a085ade3f27e7d = $(`<div id="html_9b7efb8235416d1fe1a085ade3f27e7d" style="width: 100.0%; height: 100.0%;">     <h4>UMD:Quantum Materials Center (QMC)</h4>      <b>Research Area:</b><br>     Quantum Materials; Superconductivity; Topological Materials     <br><br>      <b>Technology Readiness:</b><br>     TRL 2-4     <br><br>      <b>Description:</b><br>     Research center studying quantum materials that enable future quantum devices, including superconductors and novel electronic materials.          <b>Read more</b><br>     <a href="https://qmc.umd.edu" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_d6a86328fd3791f05493d1e1ba20f953.setContent(html_9b7efb8235416d1fe1a085ade3f27e7d);
             
         
 
-        circle_marker_b1b9f7ad9d8a2eab752af60980be2f53.bindPopup(popup_94881bf5d5b9e36c9db8c147936d42e9)
+        circle_marker_53dc85fe48c8227db411f777fbd5dbf0.bindPopup(popup_d6a86328fd3791f05493d1e1ba20f953)
         ;
 
         
     
     
-            var circle_marker_679a49e8bc12b5152d1bc78483982bea = L.circleMarker(
+            var circle_marker_44c4aaca5bc92bedc2104ba87fa0bb4e = L.circleMarker(
                 [38.9897, -76.9378],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_ce2db3a918eb56a374b7455875278570 = L.popup({
+        var popup_3939e4f808ea03ad709c28ffdc9aa390 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_3827ebbe03bf52141bd6813933488edb = $(`<div id="html_3827ebbe03bf52141bd6813933488edb" style="width: 100.0%; height: 100.0%;">     <h4>UMD: Condensed Matter Theory Center</h4>      <b>Research Area:</b><br>     Quantum Many-Body Physics; Theoretical Condensed Matter; Quantum Simulation     <br><br>      <b>Technology Readiness:</b><br>     TRL 1-3     <br><br>      <b>Description:</b><br>     Theoretical research investigating quantum phenomena, many-body systems, and fundamental physics supporting future quantum technologies.     </div>`)[0];
-                popup_ce2db3a918eb56a374b7455875278570.setContent(html_3827ebbe03bf52141bd6813933488edb);
+                var html_e56dfbec41af91962ddfe42418cd27b1 = $(`<div id="html_e56dfbec41af91962ddfe42418cd27b1" style="width: 100.0%; height: 100.0%;">     <h4>UMD:Condensed Matter Theory Center</h4>      <b>Research Area:</b><br>     Quantum Many-Body Physics; Theoretical Condensed Matter; Quantum Simulation     <br><br>      <b>Technology Readiness:</b><br>     TRL 1-3     <br><br>      <b>Description:</b><br>     Theoretical research investigating quantum phenomena, many-body systems, and fundamental physics supporting future quantum technologies.          <b>Read more</b><br>     <a href="https://physics.umd.edu/cmtc" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_3939e4f808ea03ad709c28ffdc9aa390.setContent(html_e56dfbec41af91962ddfe42418cd27b1);
             
         
 
-        circle_marker_679a49e8bc12b5152d1bc78483982bea.bindPopup(popup_ce2db3a918eb56a374b7455875278570)
+        circle_marker_44c4aaca5bc92bedc2104ba87fa0bb4e.bindPopup(popup_3939e4f808ea03ad709c28ffdc9aa390)
         ;
 
         
     
     
-            var circle_marker_014e83e09db12863ea126614c756cb34 = L.circleMarker(
+            var circle_marker_f943b24d5e24d3539da293d172e6ac28 = L.circleMarker(
                 [38.9897, -76.9378],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_8421ef587ee7df41d1c45bfa83a99e66 = L.popup({
+        var popup_d7165d5e169f8961c8addd1f9bcbcec0 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_bcfd87f3761829164b6aff60da987a29 = $(`<div id="html_bcfd87f3761829164b6aff60da987a29" style="width: 100.0%; height: 100.0%;">     <h4>UMD: QuICS</h4>      <b>Research Area:</b><br>     Quantum Algorithms; Quantum Information Theory; Quantum Cryptography; Quantum Computing Software     <br><br>      <b>Technology Readiness:</b><br>     TRL 1-5     <br><br>      <b>Description:</b><br>     Interdisciplinary center researching quantum information science, quantum algorithms, cryptography, and theoretical foundations of quantum computing.     </div>`)[0];
-                popup_8421ef587ee7df41d1c45bfa83a99e66.setContent(html_bcfd87f3761829164b6aff60da987a29);
+                var html_b14ac495838bcd44b0fbddb7ea2951b4 = $(`<div id="html_b14ac495838bcd44b0fbddb7ea2951b4" style="width: 100.0%; height: 100.0%;">     <h4>UMD:QuICS</h4>      <b>Research Area:</b><br>     Quantum Algorithms; Quantum Information Theory; Quantum Cryptography; Quantum Computing Software     <br><br>      <b>Technology Readiness:</b><br>     TRL 1-5     <br><br>      <b>Description:</b><br>     Interdisciplinary center researching quantum information science, quantum algorithms, cryptography, and theoretical foundations of quantum computing.          <b>Read more</b><br>     <a href="https://quics.umd.edu" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_d7165d5e169f8961c8addd1f9bcbcec0.setContent(html_b14ac495838bcd44b0fbddb7ea2951b4);
             
         
 
-        circle_marker_014e83e09db12863ea126614c756cb34.bindPopup(popup_8421ef587ee7df41d1c45bfa83a99e66)
+        circle_marker_f943b24d5e24d3539da293d172e6ac28.bindPopup(popup_d7165d5e169f8961c8addd1f9bcbcec0)
         ;
 
         
     
     
-            var circle_marker_924aa0a39bb888b1f802b2d2cb8718cf = L.circleMarker(
+            var circle_marker_59e7d6f0bff14d3fd58d9f65e26b3a3b = L.circleMarker(
                 [38.9897, -76.9378],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_418d02dd0c32054126638dec6d07b6c7 = L.popup({
+        var popup_d4b7fa3f5da08e348538e937a68c2637 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_19030a27ea98d42962193c94d6340304 = $(`<div id="html_19030a27ea98d42962193c94d6340304" style="width: 100.0%; height: 100.0%;">     <h4>UMD: Joint Quantum Institute (JQI)</h4>      <b>Research Area:</b><br>     Quantum Optics; Atomic Physics; Quantum Information; Quantum Simulation     <br><br>      <b>Technology Readiness:</b><br>     TRL 2-5     <br><br>      <b>Description:</b><br>     Major quantum science institute studying atomic systems, quantum optics, and experimental platforms for quantum technologies.     </div>`)[0];
-                popup_418d02dd0c32054126638dec6d07b6c7.setContent(html_19030a27ea98d42962193c94d6340304);
+                var html_0f7297633772100f67cd767ba74245d6 = $(`<div id="html_0f7297633772100f67cd767ba74245d6" style="width: 100.0%; height: 100.0%;">     <h4>UMD:Joint Quantum Institute (JQI)</h4>      <b>Research Area:</b><br>     Quantum Optics; Atomic Physics; Quantum Information; Quantum Simulation     <br><br>      <b>Technology Readiness:</b><br>     TRL 2-5     <br><br>      <b>Description:</b><br>     Major quantum science institute studying atomic systems, quantum optics, and experimental platforms for quantum technologies.          <b>Read more</b><br>     <a href="https://jqi.umd.edu" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_d4b7fa3f5da08e348538e937a68c2637.setContent(html_0f7297633772100f67cd767ba74245d6);
             
         
 
-        circle_marker_924aa0a39bb888b1f802b2d2cb8718cf.bindPopup(popup_418d02dd0c32054126638dec6d07b6c7)
+        circle_marker_59e7d6f0bff14d3fd58d9f65e26b3a3b.bindPopup(popup_d4b7fa3f5da08e348538e937a68c2637)
         ;
 
         
     
     
-            var circle_marker_8b3b47f8a90d6fa4d5e6c063280ab5bd = L.circleMarker(
+            var circle_marker_909f9de6da78d913034dff1a94902c61 = L.circleMarker(
                 [38.9897, -76.9378],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_c12ccfd4156b915558c66dbcac1827a5 = L.popup({
+        var popup_3f96ebb5786a12531add5070d96ee9f4 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_fb62a5921bb780ded6e8cdc1028cdc96 = $(`<div id="html_fb62a5921bb780ded6e8cdc1028cdc96" style="width: 100.0%; height: 100.0%;">     <h4>UMD: Quantum Technology Center (QTC)</h4>      <b>Research Area:</b><br>     Quantum Sensing; Quantum Communication; Quantum Devices     <br><br>      <b>Technology Readiness:</b><br>     TRL 3-6     <br><br>      <b>Description:</b><br>     Center developing practical quantum technologies including quantum sensors, communication systems, and emerging quantum devices.     </div>`)[0];
-                popup_c12ccfd4156b915558c66dbcac1827a5.setContent(html_fb62a5921bb780ded6e8cdc1028cdc96);
+                var html_85ea5c1bb9a1ab2848fb8f57d0047e1c = $(`<div id="html_85ea5c1bb9a1ab2848fb8f57d0047e1c" style="width: 100.0%; height: 100.0%;">     <h4>UMD:Quantum Technology Center (QTC)</h4>      <b>Research Area:</b><br>     Quantum Sensing; Quantum Communication; Quantum Devices     <br><br>      <b>Technology Readiness:</b><br>     TRL 3-6     <br><br>      <b>Description:</b><br>     Center developing practical quantum technologies including quantum sensors, communication systems, and emerging quantum devices.          <b>Read more</b><br>     <a href="https://qtc.umd.edu" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_3f96ebb5786a12531add5070d96ee9f4.setContent(html_85ea5c1bb9a1ab2848fb8f57d0047e1c);
             
         
 
-        circle_marker_8b3b47f8a90d6fa4d5e6c063280ab5bd.bindPopup(popup_c12ccfd4156b915558c66dbcac1827a5)
+        circle_marker_909f9de6da78d913034dff1a94902c61.bindPopup(popup_3f96ebb5786a12531add5070d96ee9f4)
         ;
 
         
     
     
-            var circle_marker_e5b489bae29f4af7e588c75731667de0 = L.circleMarker(
+            var circle_marker_9f4683a6f828a3c70dd3cd0549f48655 = L.circleMarker(
                 [39.1653, -76.8967],
                 {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_60edd36689daa1c046530a1a23546800 = L.popup({
+        var popup_0c345e1c5510dba74af899301446172c = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_c2fa0344d16bb1e969e0f3f467f06e43 = $(`<div id="html_c2fa0344d16bb1e969e0f3f467f06e43" style="width: 100.0%; height: 100.0%;">     <h4>Johns Hopkins APL</h4>      <b>Research Area:</b><br>     Quantum Error Testing; Noise & Interference Testing; Quantum Hardware Reliability     <br><br>      <b>Technology Readiness:</b><br>     TRL 5     <br><br>      <b>Description:</b><br>     Researching how quantum systems respond to environmental effects, including radiation and cosmic-ray-induced noise in superconducting qubits.     </div>`)[0];
-                popup_60edd36689daa1c046530a1a23546800.setContent(html_c2fa0344d16bb1e969e0f3f467f06e43);
+                var html_f6a0d4cb5a00ff714823d64475f7cff7 = $(`<div id="html_f6a0d4cb5a00ff714823d64475f7cff7" style="width: 100.0%; height: 100.0%;">     <h4>Johns Hopkins APL</h4>      <b>Research Area:</b><br>     Quantum Error Testing; Noise & Interference Testing; Quantum Hardware Reliability     <br><br>      <b>Technology Readiness:</b><br>     TRL 5     <br><br>      <b>Description:</b><br>     Researching how quantum systems respond to environmental effects, including radiation and cosmic-ray-induced noise in superconducting qubits.          <b>Read more</b><br>     <a href="https://www.jhuapl.edu/work/impact/quantum-technologies" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_0c345e1c5510dba74af899301446172c.setContent(html_f6a0d4cb5a00ff714823d64475f7cff7);
             
         
 
-        circle_marker_e5b489bae29f4af7e588c75731667de0.bindPopup(popup_60edd36689daa1c046530a1a23546800)
+        circle_marker_9f4683a6f828a3c70dd3cd0549f48655.bindPopup(popup_0c345e1c5510dba74af899301446172c)
         ;
 
         
     
     
-            var circle_marker_1adccb8c5c62e6a12e3f299f912f4eda = L.circleMarker(
+            var circle_marker_7bf3ff84ac6f2b4ca5f322de34f9ea6b = L.circleMarker(
                 [38.922, -77.0198],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_208879564de47160ffa69f0535241d3e = L.popup({
+        var popup_6d70f85971ccf99c3fa9ffbd34cab2be = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_4ee54591b78543c4fa65bc189a9daff4 = $(`<div id="html_4ee54591b78543c4fa65bc189a9daff4" style="width: 100.0%; height: 100.0%;">     <h4>Howard University Quantum Lab</h4>      <b>Research Area:</b><br>     Quantum Materials; Quantum Sensors; Quantum Devices     <br><br>      <b>Technology Readiness:</b><br>     TRL 3     <br><br>      <b>Description:</b><br>     Hands-on research exploring quantum materials and sensor technologies for future quantum applications.     </div>`)[0];
-                popup_208879564de47160ffa69f0535241d3e.setContent(html_4ee54591b78543c4fa65bc189a9daff4);
+                var html_36175cd65bb0b7422dd406a97dcb693b = $(`<div id="html_36175cd65bb0b7422dd406a97dcb693b" style="width: 100.0%; height: 100.0%;">     <h4>Howard University Quantum Lab</h4>      <b>Research Area:</b><br>     Quantum Materials; Quantum Sensors; Quantum Devices     <br><br>      <b>Technology Readiness:</b><br>     TRL 3     <br><br>      <b>Description:</b><br>     Hands-on research exploring quantum materials and sensor technologies for future quantum applications.          <b>Read more</b><br>     <a href="https://www.qresearch.info/home" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_6d70f85971ccf99c3fa9ffbd34cab2be.setContent(html_36175cd65bb0b7422dd406a97dcb693b);
             
         
 
-        circle_marker_1adccb8c5c62e6a12e3f299f912f4eda.bindPopup(popup_208879564de47160ffa69f0535241d3e)
+        circle_marker_7bf3ff84ac6f2b4ca5f322de34f9ea6b.bindPopup(popup_6d70f85971ccf99c3fa9ffbd34cab2be)
         ;
 
         
     
     
-            var circle_marker_a9fd65d19040c30a51d02130767beb0d = L.circleMarker(
+            var circle_marker_d9997ffedb4b380f63209567ae3c9ba5 = L.circleMarker(
                 [38.9847, -77.0947],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_b9eb523c41762a87459d69eb3c626581 = L.popup({
+        var popup_240919942b78a6e26f44323cb43c3b6a = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_06f59753bcad89acf553d0ce46a5db2c = $(`<div id="html_06f59753bcad89acf553d0ce46a5db2c" style="width: 100.0%; height: 100.0%;">     <h4>Lockheed Martin (Bethesda)</h4>      <b>Research Area:</b><br>     Defense Quantum Systems; Hardware Integration; Quantum Optimization     <br><br>      <b>Technology Readiness:</b><br>     TRL 7     <br><br>      <b>Description:</b><br>     Developing and integrating quantum technologies into defense-related platforms, including quantum sensing and computational applications.     </div>`)[0];
-                popup_b9eb523c41762a87459d69eb3c626581.setContent(html_06f59753bcad89acf553d0ce46a5db2c);
+                var html_3c00781cc71c8bbfb00bd60ff1da26b6 = $(`<div id="html_3c00781cc71c8bbfb00bd60ff1da26b6" style="width: 100.0%; height: 100.0%;">     <h4>Lockheed Martin (Bethesda)</h4>      <b>Research Area:</b><br>     Defense Quantum Systems; Hardware Integration; Quantum Optimization     <br><br>      <b>Technology Readiness:</b><br>     TRL 7     <br><br>      <b>Description:</b><br>     Developing and integrating quantum technologies into defense-related platforms, including quantum sensing and computational applications.          <b>Read more</b><br>     <a href="https://www.lockheedmartin.com/en-us/capabilities/quantum-technology.html" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_240919942b78a6e26f44323cb43c3b6a.setContent(html_3c00781cc71c8bbfb00bd60ff1da26b6);
             
         
 
-        circle_marker_a9fd65d19040c30a51d02130767beb0d.bindPopup(popup_b9eb523c41762a87459d69eb3c626581)
+        circle_marker_d9997ffedb4b380f63209567ae3c9ba5.bindPopup(popup_240919942b78a6e26f44323cb43c3b6a)
         ;
 
         
     
     
-            var circle_marker_c3bf2297b2fca80831ff07cfd66c9a0f = L.circleMarker(
+            var circle_marker_05b876d7f61b4e9d9b796e2a926423af = L.circleMarker(
                 [38.9897, -76.9378],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_5d92ff800e3e947a634a90ea3990f6b2 = L.popup({
+        var popup_c78590813a9628c5837aa613e0487380 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_bfdc1f9fc3474c341bd6436b9873c23f = $(`<div id="html_bfdc1f9fc3474c341bd6436b9873c23f" style="width: 100.0%; height: 100.0%;">     <h4>IonQ (College Park)</h4>      <b>Research Area:</b><br>     Trapped-Ion Quantum Computing; Quantum Processors     <br><br>      <b>Technology Readiness:</b><br>     TRL 8     <br><br>      <b>Description:</b><br>     Commercial quantum computing company developing trapped-ion quantum computers and providing access to operational quantum hardware.     </div>`)[0];
-                popup_5d92ff800e3e947a634a90ea3990f6b2.setContent(html_bfdc1f9fc3474c341bd6436b9873c23f);
+                var html_73149eb9eb0620542f42ac19c44d00f9 = $(`<div id="html_73149eb9eb0620542f42ac19c44d00f9" style="width: 100.0%; height: 100.0%;">     <h4>IonQ (College Park)</h4>      <b>Research Area:</b><br>     Trapped-Ion Quantum Computing; Quantum Processors     <br><br>      <b>Technology Readiness:</b><br>     TRL 8     <br><br>      <b>Description:</b><br>     Commercial quantum computing company developing trapped-ion quantum computers and providing access to operational quantum hardware.          <b>Read more</b><br>     <a href="https://www.ionq.com" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_c78590813a9628c5837aa613e0487380.setContent(html_73149eb9eb0620542f42ac19c44d00f9);
             
         
 
-        circle_marker_c3bf2297b2fca80831ff07cfd66c9a0f.bindPopup(popup_5d92ff800e3e947a634a90ea3990f6b2)
+        circle_marker_05b876d7f61b4e9d9b796e2a926423af.bindPopup(popup_c78590813a9628c5837aa613e0487380)
         ;
 
         
     
     
-            var circle_marker_75ecf1affc729ff031eec725f77bf930 = L.circleMarker(
+            var circle_marker_4e1eea64051586bd7f82a591ddfef2a6 = L.circleMarker(
                 [38.8239, -77.0233],
                 {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_b90dbd51e9baf70eb08c24a00cddf81f = L.popup({
+        var popup_cf1d2492fc6196e5a14ace8b177aafc7 = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_4359f544426f9969ee54a32d190da953 = $(`<div id="html_4359f544426f9969ee54a32d190da953" style="width: 100.0%; height: 100.0%;">     <h4>Naval Research Laboratory (NRL)</h4>      <b>Research Area:</b><br>     Quantum Encryption Protocols; Free-Space & Maritime QKD; Quantum Optics & Atomic Clocks     <br><br>      <b>Technology Readiness:</b><br>     TRL 4-7     <br><br>      <b>Description:</b><br>     Naval defense laboratory conducting physical field testing for maritime quantum key distribution, tactical quantum encryption protocols, and ultra-precise atomic clocks.     </div>`)[0];
-                popup_b90dbd51e9baf70eb08c24a00cddf81f.setContent(html_4359f544426f9969ee54a32d190da953);
+                var html_624eac09c4701ca230ff9724196c0cad = $(`<div id="html_624eac09c4701ca230ff9724196c0cad" style="width: 100.0%; height: 100.0%;">     <h4>Naval Research Laboratory (NRL)</h4>      <b>Research Area:</b><br>     Quantum Encryption Protocols; Free-Space & Maritime QKD; Quantum Optics & Atomic Clocks     <br><br>      <b>Technology Readiness:</b><br>     TRL 4-7     <br><br>      <b>Description:</b><br>     Naval defense laboratory conducting physical field testing for maritime quantum key distribution, tactical quantum encryption protocols, and ultra-precise atomic clocks.          <b>Read more</b><br>     <a href="https://www.nrl.navy.mil/Our-Work/Areas-of-Research/Quantum-Research" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_cf1d2492fc6196e5a14ace8b177aafc7.setContent(html_624eac09c4701ca230ff9724196c0cad);
             
         
 
-        circle_marker_75ecf1affc729ff031eec725f77bf930.bindPopup(popup_b90dbd51e9baf70eb08c24a00cddf81f)
+        circle_marker_4e1eea64051586bd7f82a591ddfef2a6.bindPopup(popup_cf1d2492fc6196e5a14ace8b177aafc7)
         ;
 
         
     
     
-            var circle_marker_fe4145a4b2bc2dadc9c00b6784925151 = L.circleMarker(
+            var circle_marker_7bb4cdacd01ac7b28d18134993180003 = L.circleMarker(
                 [38.9248, -77.2023],
                 {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
-            ).addTo(map_e5f0c563f37e8e0ac8518f113880758b);
+            ).addTo(marker_cluster_dbef097ef8cddffaca47584ea642f112);
         
     
-        var popup_c5a5bc02cd973c391b115793aa2fd94c = L.popup({
+        var popup_aaff0368e11c23c73991aeccf0977bdd = L.popup({
   "maxWidth": 350,
 });
 
         
             
-                var html_775f1d6b5e528cb2bda65be17183237f = $(`<div id="html_775f1d6b5e528cb2bda65be17183237f" style="width: 100.0%; height: 100.0%;">     <h4>MITRE Corporation (McLean)</h4>      <b>Research Area:</b><br>     PQC Migration Frameworks; Quantum Network Interoperability; Quantum Hardware Evaluation     <br><br>      <b>Technology Readiness:</b><br>     TRL 4-6     <br><br>      <b>Description:</b><br>     Federally funded R&D center building migration roadmaps for PQC standards, testing quantum network interoperability, and benchmarking hardware architectures.     </div>`)[0];
-                popup_c5a5bc02cd973c391b115793aa2fd94c.setContent(html_775f1d6b5e528cb2bda65be17183237f);
+                var html_0d23851b9e64e6221c32c5a697d88f4f = $(`<div id="html_0d23851b9e64e6221c32c5a697d88f4f" style="width: 100.0%; height: 100.0%;">     <h4>MITRE Corporation (McLean)</h4>      <b>Research Area:</b><br>     PQC Migration Frameworks; Quantum Network Interoperability; Quantum Hardware Evaluation     <br><br>      <b>Technology Readiness:</b><br>     TRL 4-6     <br><br>      <b>Description:</b><br>     Federally funded R&D center building migration roadmaps for PQC standards, testing quantum network interoperability, and benchmarking hardware architectures.          <b>Read more</b><br>     <a href="https://www.mitre.org/news-insights/news-release/post-quantum-cryptography-coalition-unveils-pqc-migration-roadmap" target="_blank">Visit Website</a>          </div>`)[0];
+                popup_aaff0368e11c23c73991aeccf0977bdd.setContent(html_0d23851b9e64e6221c32c5a697d88f4f);
             
         
 
-        circle_marker_fe4145a4b2bc2dadc9c00b6784925151.bindPopup(popup_c5a5bc02cd973c391b115793aa2fd94c)
+        circle_marker_7bb4cdacd01ac7b28d18134993180003.bindPopup(popup_aaff0368e11c23c73991aeccf0977bdd)
         ;
 
         
     
+    
+            marker_cluster_dbef097ef8cddffaca47584ea642f112.addTo(map_e47ea84a6a7907390c1e5621eda9ce17);
+        
 </script>
 </html>

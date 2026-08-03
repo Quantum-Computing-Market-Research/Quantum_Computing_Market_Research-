@@ -1,18 +1,19 @@
 import pandas as pd 
 import folium
+from folium.plugins import MarkerCluster
 
 df = pd.read_csv('data/quantum_DMV.csv')
 
 locations = {
     "NIST (Gaithersburg)": [39.1406, -77.2189],
     
-    "UMD: LPS Qubit Collaboratory": [38.9897, -76.9378],
-    "UMD: The National Quantum Laboratory (QLab)": [38.9897, -76.9378],
-    "UMD: Quantum Materials Center (QMC)": [38.9897, -76.9378],
-    "UMD: Condensed Matter Theory Center": [38.9897, -76.9378],
-    "UMD: QuICS": [38.9897, -76.9378],
-    "UMD: Joint Quantum Institute (JQI)": [38.9897, -76.9378],
-    "UMD: Quantum Technology Center (QTC)": [38.9897, -76.9378],
+    "UMD:LPS Qubit Collaboratory": [38.9897, -76.9378],
+    "UMD:The National Quantum Laboratory (QLab)": [38.9897, -76.9378],
+    "UMD:Quantum Materials Center (QMC)": [38.9897, -76.9378],
+    "UMD:Condensed Matter Theory Center": [38.9897, -76.9378],
+    "UMD:QuICS": [38.9897, -76.9378],
+    "UMD:Joint Quantum Institute (JQI)": [38.9897, -76.9378],
+    "UMD:Quantum Technology Center (QTC)": [38.9897, -76.9378],
 
     "Johns Hopkins APL": [39.1653, -76.8967],
 
@@ -27,6 +28,7 @@ locations = {
 
 df['Latitude'] = df["Institution"].map(lambda x: locations.get(x, [None, None])[0])
 df['Longitude'] = df["Institution"].map(lambda x: locations.get(x, [None,None])[1])
+
 
 def trl_color(trl):
     trl = str(trl).replace("TRL", "").strip()
@@ -95,6 +97,7 @@ font-family:Arial;
 """
 
 m.get_root().html.add_child(folium.Element(top_banner))
+marker_cluster = MarkerCluster().add_to(m)
 
 for _, row in df.iterrows():
 
@@ -111,6 +114,10 @@ for _, row in df.iterrows():
 
     <b>Description:</b><br>
     {row['Description']}
+    
+    <b>Read more</b><br>
+    <a href="{row['Link']}" target="_blank">Visit Website</a>
+    
     """
 
     
@@ -133,7 +140,7 @@ for _, row in df.iterrows():
             max_width=350
         )
 
-    ).add_to(m)
+    ).add_to(marker_cluster)
     
     legend = """
 <div style="
